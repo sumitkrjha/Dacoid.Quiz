@@ -3,8 +3,17 @@
 ## Overview
 
 The **Interactive Quiz Platform** is a web application designed to allow users to attempt quizzes, get instant feedback, and track their progress. The platform is built using **React.js**, **Vite**, **Tailwind CSS**, and **IndexedDB** to store quiz history. This platform supports multiple quiz attempts, timers, and a scoreboard to track user performance. Additionally, users can view their attempt history for further analysis.
-
 ### Live at [here](https://quiz-sumit.netlify.app)
+
+## Screen Shots
+### Landing Page
+![landing](https://github.com/user-attachments/assets/5e7c42e5-e0e1-4aef-b1c4-7d0a227a151a)
+
+### Quiz
+![Quiz](https://github.com/user-attachments/assets/d2f46859-2e38-40ee-bef5-a58cf0cca949)
+
+### Game History
+![History](https://github.com/user-attachments/assets/28e6a87b-23b9-4cbf-904b-fc6ffaf74e1d)
 
 ## Features
 
