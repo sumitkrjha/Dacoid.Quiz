@@ -6,11 +6,11 @@ const HeroComponent = () => {
     <>
       <div
         id="heroContainer"
-        className="h-auto w-full mt-14 lg:px-20 py-10 flex flex-col lg:flex-row items-center justify-center gap-3 "
+        className="h-auto w-full md:mt-14 lg:px-20 py-10 flex flex-col lg:flex-row items-center justify-center gap-3 "
       >
         <div
           id="heroText"
-          className="h-full pt-20 lg:p-10 flex flex-col items-center justify-center "
+          className="h-full md:pt-20 lg:p-10 flex flex-col items-center justify-center "
         >
           <h1 id="mainText" className="text-5xl font-bold text-[#16163F]">
             Challenge Your Knowledge, One Quiz at a Time!
@@ -21,7 +21,7 @@ const HeroComponent = () => {
             up your learning?{" "}
           </h3>
           <Link to="/quiz">
-            <button className="h-18 w-40 p-4 border-2 border-purple-500 rounded-full text-lg font-semibold hover:bg-purple-500 hover:text-white">
+            <button className="h-18 w-40 p-4 border-4 border-purple-500 rounded-full text-xl font-semibold hover:bg-purple-500 hover:text-white">
               Start Game
             </button>
           </Link>
