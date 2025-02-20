@@ -4,10 +4,7 @@ import HeroComponent from "../component/HeroComponent";
 const Landing = () => {
   return (
     <>
-      <div
-        id="landingWrapper"
-        className="h-screen w-full px-16 pt-5 pb-10 bg-[url('src/assets/bg.avif')]"
-      >
+      <div id="landingWrapper" className="h-full w-full px-16 pt-5 pb-10 ">
         <div id="landingContainer" className="h-full w-full p-3">
           <LandingHeader />
           <HeroComponent />
