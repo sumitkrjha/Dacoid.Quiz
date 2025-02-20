@@ -149,6 +149,15 @@ function Quiz() {
     setSubmitted(false);
     setTimeLeft(30);
   };
+  const handleRestart = () => {
+    setCurrentQuestion(0);
+    setScore(0);
+    setSelectedOption(null);
+    setNumericAnswer("");
+    setSubmitted(false);
+    setShowScore(false);
+    setTimeLeft(30);
+  };
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4">
@@ -271,7 +280,7 @@ function Quiz() {
             </ul>
             <Button
               className="mt-4 bg-purple-500 text-white"
-              onClick={() => window.location.reload()}
+              onClick={handleRestart}
             >
               Try Again
             </Button>
