@@ -1,0 +1,18 @@
+import React from "react";
+import Quiz from "./pages/Quiz";
+import Landing from "./Pages/Landing";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+const App = () => {
+  return (
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/quiz" element={<Quiz />} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
+};
+
+export default App;
