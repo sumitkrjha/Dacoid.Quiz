@@ -1,6 +1,6 @@
 import React from "react";
 import Quiz from "./pages/Quiz";
-import Landing from "./Pages/Landing";
+import Landing from "./pages/Landing";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 const App = () => {
   return (
